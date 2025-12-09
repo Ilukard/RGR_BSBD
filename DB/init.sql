@@ -5,7 +5,7 @@
 -- Dumped from database version 14.19 (Ubuntu 14.19-0ubuntu0.22.04.1)
 -- Dumped by pg_dump version 17.4
 
--- Started on 2025-12-09 09:55:00
+-- Started on 2025-12-09 10:40:07
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -17,7 +17,7 @@ SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
 SET xmloption = content;
 SET client_min_messages = warning;
-SET row_security = on;
+SET row_security = off;
 
 --
 -- TOC entry 11 (class 2615 OID 16391)
@@ -22702,7 +22702,7 @@ ALTER DEFAULT PRIVILEGES FOR ROLE app_owner IN SCHEMA stg GRANT SELECT ON TABLES
 ALTER DEFAULT PRIVILEGES FOR ROLE app_owner IN SCHEMA stg GRANT SELECT,INSERT,DELETE,UPDATE ON TABLES TO app_writer;
 
 
--- Completed on 2025-12-09 09:55:01
+-- Completed on 2025-12-09 10:40:07
 
 --
 -- PostgreSQL database dump complete
